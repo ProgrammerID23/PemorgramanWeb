@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>
+    <title>CV Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="../PERSONAL WEB/asset/icons8-cv-100.png" type="image/x-icon">
+</head>
+<body>
+   <header>
+    <a href="#" class="logo">Muchamad <span class="span">Naufal Aziz</span></a>
+    <div class="bx bx-menu" id="menu-icon">
+
+    </div>
+    <ul class="navlist">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#hobby">Hobby</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+    </ul>
+    <div class="top-btn">
+        <a href="#contact" class="h-btn">Contact me</a>
+    </div>
+   </header>
+
+   <section class="hero" id="home">
+    <div class="main-content" data-aos="fade-in">
+        <h4>Halo</h4>
+        <h1>Nama Saya<span class="span"> Muchamad Naufal Aziz</span></h1>
+        <p>Saya adalah mahasiswa</p>
+        <div class="social">
+            <a href="#"><i class="ri-facebook-line"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-x-line"></i></a>
+            <a href="mailto:aziznaufal804@gmai.com  "><i class="ri-mail-line"></i></a>
+        </div>
+    </div>
+   </section>
+
+   <section class="about" id="about">
+    <div class="about-img" data-aos="zoom-in-down">
+        <img src="../PERSONAL WEB/asset/foto.png" alt="">
+    </div>
+    <div class="about-text" data-aos="zoom-in-up">
+        <h2>Saya Mahasiswa <span class="span">Dan Web Developer</span></h2>
+        <div class="exp-area">
+            <p class="exp">
+                Pengalaman:
+                <span>3 tahun</span>
+            </p>
+            <p class="exp">
+                Keahlian:
+                <span>DBMS, Web Developer</span>
+            </p>
+            <p class="exp">
+                Nomor Telepon:
+                <span>087712339087</span>
+            </p>
+        </div>
+    </div>
+   </section>
+
+   <section class="skill" id="skill">
+    <div class="center-text" data-aos="fade-down">
+        <h2><span class="span">Skill</span> Saya</h2>
+    </div>
+    <div class="skill-content" data-aos="zoom-in-down">
+        <div class="box">
+            <img src="../PERSONAL WEB/asset/icons8-oracle-pl-sql.svg" alt="">
+            <h3>DBMS</h3>
+            <p>Database Management System</p>
+           
+        </div>
+
+        <div class="box">
+            <img src="../PERSONAL WEB/asset/icons8-visual-studio-code (1).svg" alt="">
+            <h3>Web Development</h3>
+            <p>Membuat Website yang dinamis dan attractive</p>
+        </div>
+    </div>
+   </section>
+
+   <section class="hobby" id="hobby">
+    <div class="tentang" data-aos="zoom-in-down">
+        <h1>Tentang <span class="span">Hobby</span></h1>
+        <p >Hobby Saya bersepeda</p>
+    </div>
+   </section>
+
+   <section class="portofolio" id="portofolio">
+        <div class="center-text" data-aos="fade-up">
+            <h2><span class="span">Portofolio </span>Saya</h2>
+        </div>
+        <div class="portofolio-content" data-aos="zoom-in-down">
+            <div class="row">
+                <img src="../PERSONAL WEB/asset/OracleAcademy-1.png" alt="foto">
+                <div class="main-row">
+                    <div class="text-row">
+                        <h5>Database Management System</h5>
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-database-2-line"></i>
+                    </div>
+                </div>
+                <h4>Database Administration</h4>
+            </div> 
+            <div class="row">
+                <img src="../PERSONAL WEB/asset/MA 18_16-16-1.png" alt="foto">
+                <div class="main-row">
+                    <div class="text-row">
+                        <h5>P2KK</h5>
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-organization-chart"></i>
+                    </div>
+                </div>
+                <h4>Alhamdulillah</h4>
+            </div>                     
+        </div>
+   </section>
+
+   <section class="contact" id="contact" data-aos="zoom-in-down">
+    <div class="center-text">
+        <h2><span class="span">Contact </span>Saya</h2>
+    </div>
+    <div class="contact-form">
+        <form action="">
+            <input type="text" placeholder="Nama" required >
+            <input type="email" placeholder="Email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Pesan"></textarea>
+            <input type="submit" name="" value="Kirim Pesan" class="kirim-btn">
+        </form>
+    </div>
+</section>
+
+   <script src="script.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init({
+        offset:300,
+        duration:1400,
+     });
+   </script>
+</body>
+</html>
